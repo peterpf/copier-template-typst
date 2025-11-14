@@ -27,10 +27,12 @@ typst_version:
     type: str
     help: The used version of Typst
     choices:
-        0.12.0 (latest): 0.12.0
+        0.14.0 (latest): 0.14.0
+        0.13.0: 0.13.0
+        0.12.0: 0.12.0
         0.11.0: 0.11.0
         0.10.0: 0.10.0
-    default: 0.12.0
+    default: 0.14.0
 author:
     type: str
     help: Who is the author (Firstname Lastname <you@mail.com>)
